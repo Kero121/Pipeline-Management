@@ -59,7 +59,7 @@
           </div>
         </div>
         <div class="mb-3 px-3">
-          <input class="form-control form-control-md" type="text" placeholder="Search By Name Or Flag" [(ngModel)]="term">
+          <input class="form-control form-control-md" type="search" placeholder="Search By Name Or Flag" [(ngModel)]="term">
         </div>
         <div class="mb-3">
           <a class="addBtn btn btn-lg btn-dark shadow-sm"><i class="fa-solid fa-circle-plus px-1"></i> ADD DEAL</a>
@@ -83,7 +83,7 @@
           [matTooltipClass]="'tooltip'"><i class="fa-solid fa-rug"></i> 2.36 mln</span>
           <span class="text-muted fw-bold"><i class="fa-solid fa-bell"></i> 2</span>
         </div>
-        <div *ngFor="let item of potential_value|search:term" cdkDrag class="card text-bg-white mb-3 shadow-sm border-0" style="max-width: 14.5rem;">
+        <div *ngFor="let item of potential_value" cdkDrag class="card text-bg-white mb-3 shadow-sm border-0" style="max-width: 14.5rem;">
           <div class="card-body p-2">
             <h5 class="card-title d-flex justify-content-between">{{item.company}} <span class="text-muted fs-5"><i class="fa-solid fa-ellipsis"></i></span></h5>
             <div class="badges">
@@ -116,7 +116,7 @@
           [matTooltipClass]="'tooltip'"><i class="fa-solid fa-rug"></i> 2.36 mln</span>
           <span class="text-muted fw-bold"><i class="fa-solid fa-bell"></i> 2</span>
         </div>
-        <div *ngFor="let item of focus|search:term" cdkDrag class="card text-bg-white mb-3 shadow-sm border-0" style="max-width: 14.5rem;">
+        <div *ngFor="let item of focus" cdkDrag class="card text-bg-white mb-3 shadow-sm border-0" style="max-width: 14.5rem;">
           <div class="card-body p-2">
             <h5 class="card-title d-flex justify-content-between">{{item.company}} <span class="text-muted fs-5"><i class="fa-solid fa-ellipsis"></i></span></h5>
             <div class="badges">
@@ -149,7 +149,7 @@
           [matTooltipClass]="'tooltip'"><i class="fa-solid fa-rug"></i> 2.36 mln</span>
           <span class="text-muted fw-bold"><i class="fa-solid fa-bell"></i> 2</span>
         </div>
-        <div *ngFor="let item of contact_made|search:term" cdkDrag class="card text-bg-white mb-3 shadow-sm border-0" style="max-width: 14.5rem;">
+        <div *ngFor="let item of contact_made" cdkDrag class="card text-bg-white mb-3 shadow-sm border-0" style="max-width: 14.5rem;">
           <div class="card-body p-2">
             <h5 class="card-title d-flex justify-content-between">{{item.company}} <span class="text-muted fs-5"><i class="fa-solid fa-ellipsis"></i></span></h5>
             <div class="badges">
@@ -182,7 +182,7 @@
           [matTooltipClass]="'tooltip'"><i class="fa-solid fa-rug"></i> 2.36 mln</span>
           <span class="text-muted fw-bold"><i class="fa-solid fa-bell"></i> 2</span>
         </div>
-        <div *ngFor="let item of offer_sent|search:term" cdkDrag class="card text-bg-white mb-3 shadow-sm border-0" style="max-width: 14.5rem;">
+        <div *ngFor="let item of offer_sent" cdkDrag class="card text-bg-white mb-3 shadow-sm border-0" style="max-width: 14.5rem;">
           <div class="card-body p-2">
             <h5 class="card-title d-flex justify-content-between">{{item.company}} <span class="text-muted fs-5"><i class="fa-solid fa-ellipsis"></i></span></h5>
             <div class="badges">
@@ -215,7 +215,7 @@
           [matTooltipClass]="'tooltip'"><i class="fa-solid fa-rug"></i> 2.36 mln</span>
           <span class="text-muted fw-bold"><i class="fa-solid fa-bell"></i> 2</span>
         </div>
-        <div *ngFor="let item of getting_ready|search:term" cdkDrag class="card text-bg-white mb-3 shadow-sm border-0" style="max-width: 14.5rem;">
+        <div *ngFor="let item of getting_ready" cdkDrag class="card text-bg-white mb-3 shadow-sm border-0" style="max-width: 14.5rem;">
           <div class="card-body p-2">
             <h5 class="card-title d-flex justify-content-between">{{item.company}} <span class="text-muted fs-5"><i class="fa-solid fa-ellipsis"></i></span></h5>
             <div class="badges"><h6 class="badge bg-secondary me-2">{{item.state}}</h6></div>

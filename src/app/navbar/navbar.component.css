@@ -2,6 +2,8 @@
 .navbar
 {
   height: 10vh;
+  z-index: 1111111111111;
+  background-color: white !important;
 }
 .logo {
   color: var(--mainColor);
