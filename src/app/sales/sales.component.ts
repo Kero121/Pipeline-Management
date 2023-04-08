@@ -63,7 +63,6 @@ export class SalesComponent implements OnInit {
         event.currentIndex,
       );
     }
-    this.filterData()
   }
   isFutureDate(idate:any){
     var today = new Date().getTime(),
