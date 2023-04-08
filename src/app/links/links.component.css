@@ -1,0 +1,22 @@
+.routingLinks
+{
+  margin-top: 10vh;
+}
+
+.routingLinks .link
+{
+  font-family: var(--mainFont);
+  font-size: large;
+  font-weight: bold;
+}
+.routingLinks .link:hover
+{
+  cursor: pointer;
+  color: var(--secondColor) !important;
+  border-bottom: 3px solid var(--secondColor) !important;
+}
+.routingLinks .activeLink
+{
+  color: var(--secondColor) !important;
+  border-bottom: 3px solid var(--secondColor) !important;
+}

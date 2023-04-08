@@ -1,0 +1,73 @@
+.salesSec
+{
+  font-family: var(--mainFont);
+}
+.salesSec .subLinks .link a
+{
+  font-weight: bolder;
+  font-size: smaller;
+}
+.salesSec .sectionHead .dropdownHead
+{
+  min-width: 18%;
+}
+.salesSec .sectionHead .dropdown
+{
+  color: #7e858d !important;
+}
+.salesSec .sectionHead .dropdown a
+{
+  border: 1px solid #e0e4e7;
+}
+.salesSec .sectionHead .dropdown li
+{
+  color: #7e858d;
+}
+
+.salesSec .sectionHead .dropdown li:hover
+{
+  cursor: pointer;
+  background-color: rgba(211, 211, 211, 0.667);
+  color: #000;
+}
+.salesSec .sectionHead input:focus
+{
+  box-shadow: none !important;
+}
+.salesSec .sectionHead .addBtn
+{
+  background-color: #7f02a8;
+  font-size: small;
+}
+.salesSec .rounded
+{
+  min-width: 18%;
+}
+.salesSec .card
+{
+  cursor: pointer;
+  min-height: 130px;
+}
+
+.salesSec .card .card-title
+{
+  font-size: 0.8rem;
+  font-weight: bold;
+  padding: 0;
+  margin: 0;
+}
+.salesSec .card .badges .badge
+{
+  font-weight: bolder;
+  padding: 0 5px;
+}
+.salesSec .card .contactInfo
+{
+  font-size: 0.6rem;
+  font-weight: bold;
+}
+.salesSec .card .date
+{
+  font-size: 0.7rem;
+  font-weight: bold;
+}

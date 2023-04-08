@@ -1,0 +1,16 @@
+.notFoundSec
+{
+  color: var(--secondColor);
+  font-family: var(--mainFont);
+  font-weight: bolder;
+  margin-top: 15vh;
+  line-height: 80px !important;
+}
+.notFoundSec p
+{
+  font-size: 40px !important;
+}
+.notFoundSec h1
+{
+  font-size: 100px !important;
+}
